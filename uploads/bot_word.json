@@ -1,0 +1,78 @@
+ {
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["Hi there","Hello!,there","Is anyone there?","How are you","Hey","Good day","Hello"],
+            "responses":["Hi","Hi,good to see you","Hi there,how can i help?","Hello,how can i help"],
+            "context":[""]
+                        
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["Bye","See you later","Goodbye","Nice chatting with you,bye","Till next time"],
+            "responses":["See you soon!,bye","Have a nice day,bye","Bye!,come back again soon"],
+            "context":[""]
+        },
+        {
+            "tag":"thanks",
+            "patterns":["Thanks","Thank you","That's helpful","Awesome,thanks!","Thanks for helping me"],
+            "responses":["Happy to help!","Any time!","My pleasure"],
+            "context":[""]
+        },
+        {
+            "tag":"Search",
+            "patterns":["Integrated with Google map search","auto recommended search","sorting function","How can I search the listings","Nearby location search","Do you have auto recommended search suggestions","Can I search and find the property owners"],
+            "responses":["Yes we have Google map search","Google auto recommended search is there!","Pricing sort is there", "you can refer this blog to search listings", "Yes, our system will show you nearby popular places", "Yes, you can search and find the property owners"],
+            "context":[""]
+        },
+        {
+            "tag":"filters",
+            "patterns":["do you have advanced search filters","Do you have price filters","amenities search","property type","ratings and reviews","number of persons"],
+            "responses":["Yes, our system has advanced search filters", "Yes, you can filter properties by price", "Yes, you can search by amenities as well!", "Of course, you can search by property type, ratings and revise etc..,"],
+            "context":[""]
+        },
+        {
+            "tag":"Signup",
+            "patterns":["Do you have social media sign up","Do you have mobile number sign up","do you have OTP verification while sign up", "Do you have ID verification process while sign up"],
+            "responses":["Yup, we do have social media sign up such as Google, Facebook", "Yes, we have mobile number sign up as well.", "ID verification is there in the sign up process", "Yes, our system will authenticate OTP based sign up"],
+            "context":[""]
+        },
+        {
+            "tag":"Login",
+            "patterns":["Do you have social media login","Do you provide insurance for properties","Do you have mobile number login","do you have OTP verification while login", "Do you have ID verification process while login", "do you have recaptcha on login"],
+            "responses":["Yup, we do have social media login such as Google, Facebook", "Yes, we have mobile number login as well.", "Yes, our system will authenticate OTP based login"],
+            "context":[""]
+        },
+        {
+            "tag":"listings",
+            "patterns":["Photos and Video Upload","How can I list my property","How to become a host","Do I need to subscribe to become a Host","Can I include amenities while list my property", "How many listings I can post", "Does your platform has auto approval for listings?", "How many photos and video I can add for my listings"],
+            "responses":["Of course, you can upload photos and videos","You can see our blog page to see the procedures to list properties or become a host","There is no subscription required to become host or list your properties", "There is no limit of posting listings", "Yes our system auto approve the listings", "You can upload 20 photos for each listings"],
+            "context":[""]
+        },
+        {
+            "tag":"Fees",
+            "patterns":["How much is the service fee for each listings","How much is the commission for listings"],
+            "responses":["All service fee, host fee and commissions will be dynamic to the current period."],
+            "context":[""]
+        },
+        {
+            "tag":"Payouts",
+            "patterns":["What is Payouts?","When will I receive the payout for each bookings?","How will I get my Payouts", "Does you platform support Stripe and Paypal"],
+            "responses":["Please refer our blogs for payouts", "You will receive the payout after the guest checkout", "Yes, our system supports stripe and paypal"],
+            "context":[""]
+        },
+        {
+            "tag":"bookings",
+            "patterns":["How can I book properties","What kind of payment methods are there your platform provides","Do you have full refund cancellation policy", "Can I change the booking dates after booking confirmed?"],
+            "responses":["Please refer our blogs to booking our properties","We provide stripe and paypal for payments","Please refer to our cancellation policies", "Yes you can change the dates by using the amendment feature. See details in this blog"],
+            "context":[""]
+        },
+        {
+            "tag":"connect",
+            "patterns":["Connect me to your host","real person","Connect me to real person","contact customer care"],
+            "responses":["Connecting to our host"],
+            "context":[]
+
+        }
+    ]
+}
