@@ -8,8 +8,8 @@ import tensorflow as tf
 
 ############################
 @st.cache_resource
-def load_model(model_path):
-    model = tf.keras.models.load_model(model_path)
+def load_model(path):
+    model = tf.keras.models.load_model(path)
     return model
 
 
@@ -18,6 +18,7 @@ data_path = os.path.join(os.getcwd(), 'uploads', data_name)
 model_name = st.selectbox('select inference model', os.listdir(os.path.join(os.getcwd(), 'saved_models')))
 model_path = os.path.join(os.getcwd(), 'saved_models', model_name)
 loaded_model = load_model(model_path)
-user_input = st.text_area('You: ', "Hi there!")
-response = chatbot_response(user_input, data_path, loaded_model)
-st.text_area('bot', response)
+user_input = st.text_area('You: ')
+if st.button('send'):
+    response = chatbot_response(user_input, data_path, loaded_model)
+    st.text_area('bot', response)

@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    gideon:
+      email: gideonjack77@gmail.com
+      name: gideon philip
+      password: $2b$12$/iUFTMiCdHsRWnSm.FPWCueSlt2LKL2GXpvlBq2yhZXP9z3K3p8YG # To be replaced with hashed password
+    narasimman:
+      email: narasimman@gmail.com
+      name: narasimman
+      password: $2b$12$Va0Fwcz6VjTItN0v2PFieuApLekx/4wYs8UGRnqtCRwpOU/DLXOjS # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
